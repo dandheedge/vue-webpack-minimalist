@@ -8,10 +8,14 @@ A minimal boilerplate for Vue and webpack with demo data to get up and running i
 - To install all dependencies for the dev environment simply run *'npm install'.* 
 - You can start the webpack dev server using the *'npm start'* command. The server should hot-reload on code changes. 
 - If you just want to build the files using webpack, you can use *'npm run webpack'.*
-- 
+
+
 **API**
+
 This is to demonstrate how you can using *get request*  to fetch the data.json file in the repository
-GET: /data/<id>
+
+GET: /data/:id
+
 - call this endpoint to get the data for each chart
 - <id> is an integer from 0-5
 
